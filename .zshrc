@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/rishabgh/.oh-my-zsh"
@@ -101,5 +101,8 @@ source $ZSH/oh-my-zsh.sh
  alias p="cd ~/projects/"
  alias b="cd ~/projects/backup_imp_files"
  alias fu="cd ~/projects/java_script/funZone"
- alias pa="cd ~/projects/java_script/patternAssignment/"
+ alias as="cd /Users/rishabgh/projects/java_script/arraySuggestionsAssignmenet"
  alias po="cd ~/projects/java_script/practiceObject/"
+ alias gpm="git push -u origin master"
+ alias gcom="git commit -m"
+ alias gad="git add"
