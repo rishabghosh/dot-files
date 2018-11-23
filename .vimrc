@@ -18,3 +18,4 @@ set backspace=indent,eol,start
 set laststatus=2
 set statusline+=%F
 map <C-]> <C-w-r>
+inoremap <C-J> <Esc>
