@@ -96,14 +96,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
  alias n=node
- alias j="cd ~/projects/java_script/"
+ alias js="cd ~/projects/java_script/"
  alias p="cd ~/projects/"
  alias b="cd ~/projects/backup_imp_files"
  alias fu="cd ~/projects/java_script/funZone"
- alias as="cd /Users/rishabgh/projects/java_script/arraySuggestionsAssignmenet"
  alias gpm="git push -u origin master"
+ alias gp="git push"
  alias gcom="git commit -m"
+ alias gc="git commit"
  alias gad="git add"
  alias pa="cd /Users/rishabgh/projects/java_script/pattern_assignment"
  alias af="cd /Users/rishabgh/projects/java_script/arrayFunctions"
+ alias exp="/Users/rishabgh/projects/java_script/experiments"
+
