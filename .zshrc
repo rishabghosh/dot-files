@@ -103,11 +103,7 @@ source $ZSH/oh-my-zsh.sh
  alias b="cd ~/projects/backup_imp_files"
  alias fu="cd ~/projects/java_script/funZone"
  alias gpm="git push -u origin master"
- alias gp="git push"
  alias gcom="git commit -m"
- alias gc="git commit"
  alias gad="git add"
- alias pa="cd /Users/rishabgh/projects/java_script/pattern_assignment"
- alias af="cd /Users/rishabgh/projects/java_script/arrayFunctions"
  alias exp="/Users/rishabgh/projects/java_script/experiments"
-
+ alias hd="/Users/rishabgh/projects/java_script/head-rishabghosh"
