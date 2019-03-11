@@ -63,10 +63,10 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  git zsh-autosuggestions
 )
-
 source $ZSH/oh-my-zsh.sh
+source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
@@ -100,10 +100,24 @@ source $ZSH/oh-my-zsh.sh
  alias n=node
  alias js="cd ~/projects/java_script/"
  alias p="cd ~/projects/"
- alias b="cd ~/projects/backup_imp_files"
+ #alias b="cd ~/projects/backup_imp_files"
  alias fu="cd ~/projects/java_script/funZone"
- alias gpm="git push -u origin master"
- alias gcom="git commit -m"
- alias gad="git add"
+ #alias gpm="git push -u origin master"
+ #alias gcom="git commit -m"
+ #alias gad="git add"
  alias exp="/Users/rishabgh/projects/java_script/experiments"
- alias hd="/Users/rishabgh/projects/java_script/head-rishabghosh"
+ #alias hd="/Users/rishabgh/projects/java_script/head-rishabghosh"
+ #alias pf="/Users/rishabgh/projects/java_script/prototype-functions" 
+ #alias wcr="/Users/rishabgh/projects/java_script/wc-rishabghosh"
+ 
+ alias m=mocha
+ alias bl="(cd ~/bin/ && ls)"
+ #alias gp="echo you are not allowed to push"
+ #alias bb="/Users/rishabgh/projects/html/brick-breaker"
+ #alias fct="/Users/rishabgh/projects/java_script/fc-rishabghosh"
+ #alias ga="git_add_ignore_dataBase.sh"
+ #alias gad="git_add_ignore_dataBase.sh"
+ alias uno="/Users/rishabgh/projects/java_script/uno-skyrus"
+ plugin=(git zsh-autosuggestions)
+ PATH="$PATH:/usr/local/Cellar/node/11.9.0/bin"
+

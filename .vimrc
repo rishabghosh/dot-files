@@ -13,7 +13,7 @@ set foldlevel=2             " Set at least 2 levels of fold open
 set laststatus=2
 set statusline+=%F
 set backspace=indent,eol,start
-
+set modifiable
 syntax on
 filetype plugin indent on
 
